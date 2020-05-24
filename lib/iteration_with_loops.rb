@@ -4,7 +4,7 @@ new_string = ""
   while row_count < array.count do
     element_index = 0
       while element_index < array[row_count].count do
-        if array[row_count][element_index].class ==  String
+        if array[row_count][element_index].class == String
           new_string << array[row_count][element_index]
           new_string << " "
       end
